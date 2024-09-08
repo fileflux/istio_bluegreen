@@ -1,7 +1,10 @@
 ---
 name: Yamllint
 
-on: push  # yamllint disable-line rule:truthy
+on:   # yamllint disable-line rule:truthy
+  push:
+    branches:
+      - main
 
 jobs:
   yamllint:
