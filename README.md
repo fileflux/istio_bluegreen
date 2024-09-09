@@ -14,7 +14,7 @@ This repository contains code that demonstrates a blue-green deployment strategy
 ### Key Components:
 1. **Istio**: Used for traffic management and controlling blue-green deployments.
 2. **ArgoCD**: Handles GitOps-based continuous delivery.
-3. **Terraform**: Manages the infrastructure for ArgoCD (located in the FilFlux infra repository).
+3. **Terraform**: Manages the infrastructure for ArgoCD (located in the FileFlux infra repository).
 
 ## Prerequisites
 
